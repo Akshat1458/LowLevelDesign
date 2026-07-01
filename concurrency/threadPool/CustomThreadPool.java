@@ -2,12 +2,11 @@ package concurrency.threadPool;
 
 public class CustomThreadPool {
 
-    private final Integer poolSize;
     private final Thread[] workers;
     private final CustomBlockingQueue taskQueue;
 
     public CustomThreadPool(Integer poolSize) {
-        this.poolSize = poolSize;
+
         workers = new Thread[poolSize];
         taskQueue = new CustomBlockingQueue();
 
