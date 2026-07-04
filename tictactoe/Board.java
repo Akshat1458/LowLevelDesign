@@ -1,3 +1,5 @@
+package tictactoe;
+
 public class Board {
 
     private int rows;

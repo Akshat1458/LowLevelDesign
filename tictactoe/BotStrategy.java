@@ -1,3 +1,5 @@
+package tictactoe;
+
 public class BotStrategy implements PlayerStrategy{
 
     public Cell getMove(Board board){

@@ -1,3 +1,5 @@
+package tictactoe;
+
 public class Game {
     
     private Board board;

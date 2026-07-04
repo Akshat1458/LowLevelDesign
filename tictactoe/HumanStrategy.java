@@ -1,3 +1,5 @@
+package tictactoe;
+
 import java.util.Scanner;
 public class HumanStrategy implements PlayerStrategy{
 
